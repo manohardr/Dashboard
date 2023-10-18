@@ -59,17 +59,15 @@ const data = [
 ];
 function OverviewOfCustomer() {
   return (
-    <div class="h-100 shadow-sm p-3 mb-4 bg-body rounded">
-      {/* <nav class="navbar"> */}
-      <div class="container-fluid w-100 d-flex flex-row align-items-center justify-content-between">
+    <div className="h-100 shadow-sm p-3 mb-4 bg-body rounded">
+      <div className="container-fluid w-100 d-flex flex-row align-items-center justify-content-between">
         <div>
-          <h5 class="navbar-brand">Overview</h5>
+          <h5 className="navbar-brand">Overview</h5>
           <div>Monthly earning</div>
         </div>
 
         <div>Quaterly</div>
       </div>
-      {/* </nav> */}
       <div>
         <ResponsiveContainer width="95%" height={250}>
           <BarChart data={data}>

@@ -11,7 +11,7 @@ const cardData = [
     type: "profit",
   },
 
-  // Then, you can add the 'imageElement' to the DOM to display the image.
+  
 
   {
     icon: "/icons/orders.png",

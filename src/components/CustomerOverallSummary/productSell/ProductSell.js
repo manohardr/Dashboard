@@ -55,21 +55,21 @@ function ProductSell() {
               className="row  d-flex flex-row justify-content-between align-items-center flex-wrap"
             >
               <p className="col-9">
-                <div class="card mb-3 border-0" style={{ maxWidth: "540px" }}>
-                  <div class="row g-0">
-                    <div class="col-md-4">
+                <div className="card mb-3 border-0" style={{ maxWidth: "540px" }}>
+                  <div className="row g-0">
+                    <div className="col-md-4">
                       <img
                         src={data.image}
                         alt="..."
                         className="product-image img-fluid rounded"
                       />
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title" style={{ fontWeight: "bold" }}>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title" style={{ fontWeight: "bold" }}>
                           {data.name}
                         </h5>
-                        <p class="card-text">{data.description}</p>
+                        <p className="card-text">{data.description}</p>
                       </div>
                     </div>
                   </div>
