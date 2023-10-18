@@ -1,0 +1,26 @@
+#customer_data_card .percent-change {
+    font-weight: bold;
+}
+
+#customer_data_card .percent-change.profit {
+    color: green
+}
+
+
+#customer_data_card .percent-change.loss {
+    color: red
+}
+
+#customer_data_card .card {
+    max-width: 400px;
+    max-height: 250px;
+
+    .card-text{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .text{
+        margin-left: 2px
+    }
+}
