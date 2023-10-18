@@ -48,11 +48,12 @@ function ProductSell() {
           <p className="col-1 text-right">Total Sales</p>
         </div>
         <hr className="mt-2"></hr>
-        {tableData.map((data) => {
+        {tableData.map((data, id) => {
           return (
             <div
               id="product_sell"
               className="row  d-flex flex-row justify-content-between align-items-center flex-wrap"
+              key={id}
             >
               <p className="col-9">
                 <div className="card mb-3 border-0" style={{ maxWidth: "540px" }}>

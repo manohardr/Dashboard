@@ -49,14 +49,14 @@ function CustomerDataSummary() {
               alt="Dashboard"
             />
           </div>
-          <h1 className="col-9 text-white mb-0">
+          <div className="col-9 text-white mb-0">
             <h4>Dashboard</h4>
-          </h1>
+          </div>
         </div>
         <div className="d-flex flex-column justify-content-between align-items-center flex-wrap w-100">
-          {dashData.map((data) => {
+          {dashData.map((data,id) => {
             return (
-              <div className="nav-items row w-100 mb-2">
+              <div className="nav-items row w-100 mb-2" key={id}>
                 <span className="col-2 p-0">
                   <img
                     src={data.icon}
